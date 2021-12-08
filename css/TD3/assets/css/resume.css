@@ -1,0 +1,235 @@
+body {
+    margin: 0px;
+    font-family: 'Oswald', sans-serif;
+}
+.home_container1 {
+    height: 100vh;
+    position: relative;
+
+}
+
+
+.sidebar {
+    width: 22vw;
+    height: 100vh;
+    background-color: rgb(255, 255, 255);
+    position: fixed;
+    padding-top: 20px;
+}
+.sidebar img {
+    width: 80px;
+    border-radius: 200%;
+    border: 2px solid #e5e5e5;
+}
+.sidebar h4 {
+    color: #d1cfcf;
+}
+
+.IMG img {
+    width: 30px;
+    position: relative;
+}
+
+
+.container1 {
+    height: 100vh;
+    width: 50vw;
+    margin-left: 22vw;
+    position: relative;
+    margin-top: 80px;
+    padding-top: 25px;
+    
+}
+#resume {
+    background-color: #dbaa41;
+    border: 1px solid white;
+    padding-right: 30px;
+    padding-left: 100px;
+    color: white;
+}
+#skills {
+    border: 1px solid white;
+    padding-right: 30px;
+    padding-left: 50px;
+    color: #d1cfcf;
+
+}
+.university {
+    font-size: 12px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.container1 u {
+    text-decoration-color:#f1b636; 
+}
+.container1 p {
+    color: #797676;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#td1 {
+    background-color: #41db62;
+    border: 1px solid white;
+    padding-right: 30px;
+  
+    color: white;
+}
+.education {
+    position: relative;
+    width: 25vw;
+    display: block;
+    float: left;
+    padding-left: 5vw;
+     
+}
+.experience {
+    position: relative;
+    width: 20vw;
+    display: block;
+    float: left;
+}
+
+
+.Spacialization_Course {
+    position: relative;
+    width: 25vw;
+    display: block;
+    float: left;
+    padding-left: 5vw;
+     
+}
+.web_designer{
+    position: relative;
+    width: 20vw;
+    display: block;
+    float: left;
+}
+
+.Spacialization_Course1 {
+    position: relative;
+    width: 25vw;
+    display: block;
+    float: left;
+    padding-left: 5vw;
+     
+}
+.download {
+    margin-left: 0vw;
+    margin-top: 3vh;
+    margin-bottom: 20%;
+    border: 3px solid #fbc604;
+    height: 6vh;
+    padding: 0px 20px 0px 20px;
+}
+.Graphic_designer{
+    position: relative;
+    width: 20vw;
+    display: block;
+    float: left;
+}
+
+
+
+
+
+
+
+
+.container2 {
+    position: absolute;
+    right: 0px;
+    top: 28vh;
+    width: 28vw;
+    display: block;
+    float: left;
+    
+}
+.container2 div {
+    border-radius: 25px;
+}
+.web_bar1 {
+    height: 1px;
+    position: relative;
+    background: #fdfdfb;
+    border-radius: 10px;
+    padding: 2%;
+    border: 2px solid #fbc604;
+    /* box-shadow: inset 2px 1px rgba(244, 248, 3); */
+    width: 20vw;
+  }
+  .web_bar1 > span {
+    display: block;
+    height: 200%;
+    background-color: #fbc604;
+    position: relative;
+    overflow: hidden;
+  }
+  .web_bar2 {
+    height: 1px;
+    position: relative;
+    background: #fdfdfb;
+    border-radius: 10px;
+    padding: 2%;
+    border: 2px solid #fbc604;
+    /* box-shadow: inset 2px 1px rgba(244, 248, 3); */
+    width: 20vw;
+  }
+  .web_bar2 > span {
+    display: block;
+    height: 200%;
+    background-color: #fbc604;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .web_bar3 {
+    height: 1px;
+    position: relative;
+    background: #fdfdfb;
+    border-radius: 10px;
+    padding: 2%;
+    border: 2px solid #fbc604;
+    /* box-shadow: inset 2px 1px rgba(244, 248, 3); */
+    width: 20vw;
+  }
+  .web_bar3 > span {
+    display: block;
+    height: 200%;
+    background-color: #fbc604;
+    position: relative;
+    overflow: hidden;
+  }
+.container2 u {
+    text-decoration-color:#f1b636;
+}
+
+
+
+
+#nav {
+    list-style-type: none;
+    text-align: center;
+    padding: 0px;
+  }
+  #nav li {
+    position: relative;
+    padding: 10px;
+    border-bottom: 1px solid rgb(237, 236, 236);
+    border-top: 1px solid rgb(237, 236, 236);
+    margin-top: -1px;
+  }
+  #nav li.active {
+    background-color: #f5f3f3;
+  }
+  li.active a:after {
+    background-color: #f1b636;
+    display: block;
+    position: absolute;
+    content: ' ';
+    right: 0;
+    bottom: 0;
+    width: 5px;
+    height: 100%;
+  }
+  #nav a {
+    color: black;
+    text-decoration: none;
+  }

@@ -15,7 +15,7 @@ body {
     padding-top: 20px;
 }
 .sidebar img {
-    width: 80px;
+    width: 100px;
     border-radius: 100%;
     border: 2px solid #e5e5e5;
 }
@@ -23,7 +23,7 @@ body {
     color: #d1cfcf;
 }
 
-.sidebar img {
+.IMG img {
     width: 30px;
     position: relative;
 }
